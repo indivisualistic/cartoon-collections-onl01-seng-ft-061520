@@ -1,10 +1,11 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(seven_dwarves)
   roll_list = []
   seven_dwarves.each.with_index(1) do |list, index|
     roll_list << "#{index} #{list}"
     puts roll_list
   end
 end
+
 
 
 
